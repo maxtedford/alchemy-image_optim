@@ -6,3 +6,6 @@ branches:
   only:
     - master
 script: rake
+before_install:
+ - sudo apt-get update -qq
+ - sudo apt-get install -y advancecomp gifsicle jhead jpegoptim libjpeg-progs optipng pngcrush
