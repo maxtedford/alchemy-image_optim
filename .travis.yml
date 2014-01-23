@@ -9,3 +9,6 @@ script: rake
 before_install:
  - sudo apt-get update -qq
  - sudo apt-get install -y advancecomp gifsicle jhead jpegoptim libjpeg-progs optipng pngcrush
+ - wget -q http://static.jonof.id.au/dl/kenutils/pngout-20130221-linux.tar.gz && tar -xzf pngout-20130221-linux.tar.gz && mv pngout-20130221-linux vendor
+ - export PNGOUT_BIN=vendor/pngout-20130221-linux/x86_64/pngout
+
