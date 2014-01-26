@@ -1,4 +1,5 @@
 # Alchemy::ImageOptim
+[![Build Status](https://travis-ci.org/magiclabs/alchemy-image_optim.png?branch=master)](https://travis-ci.org/magiclabs/alchemy-image_optim) [![Coverage Status](https://coveralls.io/repos/magiclabs/alchemy-image_optim/badge.png)](https://coveralls.io/r/magiclabs/alchemy-image_optim)
 
 This gem is an extension of the Alchemy CMS engine.
 
