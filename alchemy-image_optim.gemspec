@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "image_optim"
-  spec.add_dependency "alchemy_cms"
+  spec.add_dependency "alchemy_cms", "~> 3.3"
 
   spec.add_development_dependency "bundler"
   spec.add_development_dependency "rspec-rails"
